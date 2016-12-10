@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="maddyDeepakApp">
+<head>
+<meta charset="ISO-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"
+	type="text/css">
+<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"
+	type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
+<title ng-bind="pageTitle"></title>
+</head>
+
+<body>
+<header-view></header-view>
+<div ui-view></div>
+<footer-view></footer-view>
+
+<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="lib/angular/angular.min.js"></script>
+<script type="text/javascript" src="lib/angular/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="lib/angular/ui-bootstrap-tpls-2.2.0.min.js"></script>
+<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/maddyDeepakApp.module.js"></script>
+<script type="text/javascript" src="js/maddyDeepakApp.route.js"></script>
+<script type="text/javascript" src="js/maddyDeepakApp.directive.js"></script>
+<script type="text/javascript" src="js/maddyDeepakApp.controller.js"></script>
+<script type="text/javascript" src="js/maddyDeepakApp.services.js"></script>
+<script type="text/javascript" src="js/maddyDeepakApp.constants.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWQx53P7d-i121ZW5nYshBH8LtIOTPeTk&callback=initMap"></script>
+
+</body>
+</html>

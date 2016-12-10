@@ -1,0 +1,40 @@
+<section id="contact" ng-style="{height:contactPageHeight}">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 text-center">
+<h2 class="section-heading">Contact Me</h2>
+<!--<h4 class="section-heading" style="text-transform: inherit;">Your
+message will be sent to <a style="color: #fed136;"
+	href="mailto:maddheshiya.deepak@gmail.com">maddheshiya.deepak@gmail.com</a></h4>
+--></div>
+</div>
+<div class="row">
+<div class="col-lg-6">
+<h3 class="section-subheading text-muted">Email: <a
+	href="mailto:maddheshiya.deepak@gmail.com">maddheshiya.deepak@gmail.com</a></h3>
+<h3 class="section-subheading text-muted">Phone: 9019042722</h3>
+<div id="contact_map"></div>
+</div>
+<div class="col-lg-6">
+<form name="contactform" method="post" action="contact_us_mail.php">
+<div class="form-group"><label for="fname">Name</label>
+<input type="text" class="form-control" name="fname"
+	placeholder="Enter name" ng-model="vm.user.name"></div>
+<div class="form-group"><label for="email">Email
+address</label> <input type="text" class="form-control" name="email"
+	placeholder="Enter email" ng-model="vm.user.email"></div>
+<div class="form-group"><label for="mobile">Phone</label>
+<input type="text" class="form-control" name="mobile"
+	placeholder="Enter phone number" ng-model="vm.user.phone"></div>
+<div class="form-group"><label for="message">Message</label>
+<textarea rows="4" cols="50" class="form-control"
+	name="message" placeholder="Enter message"
+	ng-model="vm.user.message">
+</textarea></div>
+<button type="submit" class="messageSubmit"
+	>Submit</button>
+</form>
+</div>
+</div>
+</div>
+</section>
