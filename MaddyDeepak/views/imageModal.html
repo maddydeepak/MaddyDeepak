@@ -1,0 +1,14 @@
+<div>
+<div ng-show="loader" style="margin-top: 25%;">
+<div class="leftEye"></div>
+<div class="rightEye"></div>
+<div class="mouth"></div>
+</div>
+<div class="image-modal" ng-show="!loader"><img ng-src="{{imagePath}}"
+	class="img-responsive">
+<div class="close-modal" ng-click="closeImage()">
+<img src="images/close_button.png">
+</div>
+</div>
+<div class="image-modal-descr" ng-show="!loader">{{imageDescr}}</div>
+</div>
